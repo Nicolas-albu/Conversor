@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Armazenamento de Dados"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="166" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="cbItem1" min="-2" pref="106" max="-2" attributes="0"/>
+                  <Component id="spItem1" min="-2" pref="106" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="spItem2" min="-2" pref="106" max="-2" attributes="0"/>
+                  <Component id="cbItem2" alignment="0" min="-2" pref="106" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="190" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnVolta" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="145" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="spItem1" pref="35" max="32767" attributes="0"/>
+                      <Component id="spItem2" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cbItem1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cbItem2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="138" max="32767" attributes="0"/>
+              <Component id="btnVolta" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JSpinner" name="spItem1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="="/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbItem1">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="21">
+            <StringItem index="0" value="Bit"/>
+            <StringItem index="1" value="Kilobit"/>
+            <StringItem index="2" value="Kibibit"/>
+            <StringItem index="3" value="Mebibit"/>
+            <StringItem index="4" value="Gigabit"/>
+            <StringItem index="5" value="Gibibit"/>
+            <StringItem index="6" value="Terabit"/>
+            <StringItem index="7" value="Tebibit"/>
+            <StringItem index="8" value="Petabit"/>
+            <StringItem index="9" value="Pebibit"/>
+            <StringItem index="10" value="Byte"/>
+            <StringItem index="11" value="Kilobyte"/>
+            <StringItem index="12" value="Quiloocteto"/>
+            <StringItem index="13" value="Megabyte"/>
+            <StringItem index="14" value="MebiByte"/>
+            <StringItem index="15" value="Gigabyte"/>
+            <StringItem index="16" value="Gibibyte"/>
+            <StringItem index="17" value="Terabyte"/>
+            <StringItem index="18" value="TebiByte"/>
+            <StringItem index="19" value="Petabyte"/>
+            <StringItem index="20" value="Pebibyte"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbItem1ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="spItem2">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbItem2">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="21">
+            <StringItem index="0" value="Bit"/>
+            <StringItem index="1" value="Kilobit"/>
+            <StringItem index="2" value="Kibibit"/>
+            <StringItem index="3" value="Mebibit"/>
+            <StringItem index="4" value="Gigabit"/>
+            <StringItem index="5" value="Gibibit"/>
+            <StringItem index="6" value="Terabit"/>
+            <StringItem index="7" value="Tebibit"/>
+            <StringItem index="8" value="Petabit"/>
+            <StringItem index="9" value="Pebibit"/>
+            <StringItem index="10" value="Byte"/>
+            <StringItem index="11" value="Kilobyte"/>
+            <StringItem index="12" value="Quiloocteto"/>
+            <StringItem index="13" value="Megabyte"/>
+            <StringItem index="14" value="MebiByte"/>
+            <StringItem index="15" value="Gigabyte"/>
+            <StringItem index="16" value="Gibibyte"/>
+            <StringItem index="17" value="Terabyte"/>
+            <StringItem index="18" value="TebiByte"/>
+            <StringItem index="19" value="Petabyte"/>
+            <StringItem index="20" value="Pebibyte"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Armazenamento de Dados"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnVolta">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Volta"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnVoltaActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
